@@ -13,6 +13,10 @@ img{
     width: 55%;
 }
 
+.logoFooter{
+    filter: invert(33%) sepia(6%) saturate(20%) hue-rotate(16deg) brightness(95%) contrast(84%);
+}
+
 main{
     width: 80%;
     height: 70px;
@@ -139,6 +143,35 @@ h2{
     text-align: center;
 }
 
+ .red-social{
+    display: flex;
+    justify-content: center;
+} 
+
+.miniNav{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.miniNav a{
+    margin: 20px 0;
+    text-align: center;
+    background: #0a1a2a;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: solid;
+    border-radius: 5px;
+} 
+
+.miniNav a:hover{
+    background: #efefef;
+    color: black;
+}
+
+
+
 /* Form */
 
 form{
@@ -182,6 +215,7 @@ textarea{
     padding: 10px;
     font-size: 15px;
     text-decoration: solid;
+    border-radius: 5px;
 }
 
 .Boton:hover{
